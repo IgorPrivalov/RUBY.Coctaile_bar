@@ -1,6 +1,6 @@
 <%= render partial: 'layouts/partials/header' %>
-<%= form_for @coctaile do |f| %>
+<%= form_for(@coctaile, url: new_admin_coctailes_path(@coctaile)) do |f| %>
     <%= render partial: 'form', locals: {f: f}%>
     <br>
-    <%= f.submit 'Save' %>
+    <%= f.submit 'Create' %>
 <% end %>

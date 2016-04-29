@@ -1,4 +1,4 @@
-class CoctailesController < ApplicationController
+class Admin::CoctailesController < Admin::ApplicationController
 
   INGREDIENT_MAX_COUNT = 5
 
